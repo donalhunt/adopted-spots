@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Hack Spots</title>
+		<title>Adopted Streets</title>
 		<script type="text/javascript" src="js/ICanHaz.js"></script>
 		<script type="text/javascript" src='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
 		<script type="text/javascript" src='js/jquery.js '></script>
@@ -20,10 +20,10 @@
 	</head>
 <body>
 	<div id="wrapper">
-		<h1>Hack Spots</h1>
+		<h1>Adopted Streets</h1>
 		<div>
 			<ul class="nav">
-				<li><strong>The collected favorites of those who hack</strong></li>
+				<li><strong>A liist of streets adopted by local citizens</strong></li>
 				<li><a href="#info">INFO</a> -</li>
 				<li><a href="http://jlord.github.com/sheetsee.js" target="_blank">POWERED BY SHEETSEE.JS</a> -</li>
 				<li><a href="http://www.github.com/jlord/hack-spots" target="_blank">GITHUB</a> -</li>
@@ -46,7 +46,7 @@
 		<div id="info" class="container">
 			<h3>Contribute!</h3>
 			<div id="theNumberofSpots"></div>
-			<p>This website is hooked up to <a href="https://docs.google.com/spreadsheet/ccc?key=0Ao5u1U6KYND7dFVkcnJRNUtHWUNKamxoRGg4ZzNiT3c#gid=0" target="_blank">this Google Spreadsheet</a>, which I've shared, so click and add your favorite hack spots to the bottom of the list! For the map you'll need to <strong>get the lat and long</strong> of the spot, you can get that <a href="http://www.latlong.net/" target="_blank">here</a>. The locating of these places is helpful, so please try to fill out all the columns.</p>
+			<p>This website is hooked up to <a href="https://docs.google.com/spreadsheet/ccc?key=0Avj-ESJsQ-8rdHZqMS04QzY5MWJDSzRVczNKV3JuZ0E#gid=0" target="_blank">this Google Spreadsheet</a>, which I've shared, so click and add your favorite hack spots to the bottom of the list! For the map you'll need to <strong>get the lat and long</strong> of the spot, you can get that <a href="http://www.latlong.net/" target="_blank">here</a>. The locating of these places is helpful, so please try to fill out all the columns.</p>
 
 			<h3>Info</h3>
 			<p>When I'm visiting a new city I'd like to know which coffee shops have the best vibes, great coffee and are good for hunkering down and having a good hack. Yelp will tell you where the Starbucks is and Foursquare will tell you where your friend's have <em>been</em> - but did they like it and was it a grab in go place or a hack place? Plus, what about the people I don't follow on Foursquare or who can't check-in when in other countries?</p>
@@ -123,7 +123,7 @@
 	  document.addEventListener('DOMContentLoaded', function() {
 	  	var gData
 	  	// var URL = "10z-2P8l88hLF35EodIjigs5cyCD7BtmfZS631JMtIUU" // test new spreadsheets
-	  	var URL = "0Ao5u1U6KYND7dFVkcnJRNUtHWUNKamxoRGg4ZzNiT3c"
+	  	var URL = "0Avj-ESJsQ-8rdHZqMS04QzY5MWJDSzRVczNKV3JuZ0E"
 			Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } )
 		})
 
