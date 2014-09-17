@@ -20,6 +20,8 @@ code {font-family: "Consolas", "Ubuntu Mono", monospace; line-height: 22px; font
 
 .red-text {color: #FD9393;}
 
+.logo img {width: 100px; height: 100px; vertical-align:middle; padding-right: 10px;}
+
 #map {height: 400px; max-width: 530px; min-width: 300px; background: #DADADA;}
 #map a {border: none;}
 
